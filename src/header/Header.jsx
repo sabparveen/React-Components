@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react';
-import "./header.css"
+import "../header/header.css"
 import React from 'react'
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
             <div className="bg-img">
                 <nav className="container navbar navbar-expand-lg">
                     <div className="container-fluid mt-5">
-                        <a className="navbar-brand text-white" href="#">MNTN</a>
+                        <h1 className="navbar-brand text-white fs-4">MNTN</h1>
                         <button
                             className="navbar-toggler text-white"
                             type="button"

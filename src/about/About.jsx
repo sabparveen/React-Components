@@ -4,7 +4,7 @@ import img02 from '../about/img02.png';
 import img03 from '../about/img03.png';
 
 import React from 'react'
-
+import "../header/header.css"
 const About = () => {
     return (
         <>
@@ -14,7 +14,7 @@ const About = () => {
                     <div className="row mt-5 align-items-center">
 
                         <div className="col-12 col-md-6 col-sm-12 mt-3 position-relative">
-                            <h1 className="display-1 position-absolute text-white fw-bold" style={{ opacity: 0.1, top: '-75px', left: 0, zIndex: 0, fontSize: '150px' }}>
+                            <h1 className="display-1 position-absolute text-white fw-bold" style={{ opacity: 0.1, top: '-88px', left: 0, zIndex: 0, fontSize: '150px' }}>
                                 01
                             </h1>
                             <div className="position-relative" style={{ zIndex: 1 }}>
@@ -49,7 +49,7 @@ const About = () => {
 
                         </div>
                         <div className="col-12 col-md-6 col-sm-12 mt-3 position-relative">
-                            <h1 className="display-1 position-absolute text-white fw-bold" style={{ opacity: 0.1, top: '-75px', left: 0, zIndex: 0, fontSize: '150px' }}>
+                            <h1 className="display-1 position-absolute text-white fw-bold" style={{ opacity: 0.1, top: '-88px', left: 0, zIndex: 0, fontSize: '150px' }}>
                                 02
                             </h1>
                             <div className="position-relative" style={{ zIndex: 1 }}>
@@ -74,7 +74,7 @@ const About = () => {
                 <div className="container py-5 mt-5">
                     <div className="row mt-5 align-items-center">
                         <div className="col-12 col-md-6 col-sm-12 mt-3 position-relative">
-                            <h1 className="display-1 position-absolute text-white fw-bold" style={{ opacity: 0.1, top: '-75px', left: 0, zIndex: 0, fontSize: '150px' }}>
+                            <h1 className="display-1 position-absolute text-white fw-bold" style={{ opacity: 0.1, top: '-88px', left: 0, zIndex: 0, fontSize: '150px' }}>
                                 03
                             </h1>
                             <div className="position-relative" style={{ zIndex: 1 }}>
